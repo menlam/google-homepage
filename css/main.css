@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	display: inline;
+
+	
+}
+ul{
+	word-spacing: 10px;
+}
+ul li a{
+	text-decoration:none;
+	font-family: arial;
+	font-size: 13px;
+	color: grey;
+}
+.mainp{
+	margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.header {
+    height:50px;
+   right: 0;
+   left: 0;
+    padding: 1rem;
+    
+}
+.nav{
+	float: right;
+}
+.footer{
+
+position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  
+}
+
+
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+#logo{
+	position: fixed;
+	height: 100px;
+	width: 300px;
+	padding: 20px;
+	margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+.bt{
+	position: relative;
+	margin:20px 5px;
+	padding: 10px;
+	background-color: #efefef;
+	border: 0px;
+	left:300px;
+	color: grey;
+	font-weight: bold;
+}
+
+.searchb{
+	
+	top: 140px;
+    position: relative;
+
+}
+input{
+	width:550px;
+	height: 30px;
+    box-shadow: 0px 0px 2px #888888;
+	position: relative;
+	left: 150px;
+}
+a:hover{
+	text-decoration:underline;
+}
+.bt:hover{
+	color: black;
+	background-color: "light grey";
+	border: 2px black;
+	
+}
+#signin{
+	background-color:#1E90FF;
+	border: 0px;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+#icon{
+	padding: 5px;
+}
